@@ -1,0 +1,11 @@
+--- Math-BigInt-BitVect-1.11/t/bigintpm.inc.orig	2002-07-07 11:38:49.000000000 +0200
++++ Math-BigInt-BitVect-1.11/t/bigintpm.inc	2003-06-29 02:13:04.000000000 +0200
+@@ -1859,7 +1859,7 @@
+ -2:NaN
+ -123:NaN
+ Nan:NaN
+-+inf:NaN
+++inf:inf
+ &bround
+ $round_mode('trunc')
+ 0:12:0
