@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	BigInt-BitVect
+%define		pdir	Math
+%define		pnam	BigInt-BitVect
 Summary:	Math::BigInt's replacement module using Bit::Vector
 Summary(pl):	Modu³ zastêpuj±cy rdzeñ Math::BigInt, u¿ywaj±cy Bit::Vector
 Name:		perl-Math-BigInt-BitVect
