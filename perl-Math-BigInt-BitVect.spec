@@ -9,7 +9,7 @@ Summary:	Math::BigInt's replacement module using Bit::Vector
 Summary(pl):	Modu³ zastêpuj±cy rdzeñ Math::BigInt, u¿ywaj±cy Bit::Vector
 Name:		perl-Math-BigInt-BitVect
 Version:	1.12
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
