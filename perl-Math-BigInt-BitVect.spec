@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
@@ -15,9 +15,9 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1ed80eeb987b604c935951c5fb7b04ce
 Patch0:		%{name}-test.patch
-BuildRequires:	perl-Math-BigInt >= 1.60
-BuildRequires:	perl(Math::BigFloat) >= 1.35
-BuildRequires:	perl-Bit-Vector >= 6.0
+BuildRequires:	perl-Math-BigInt >= 1.68
+BuildRequires:	perl(Math::BigFloat) >= 1.42
+BuildRequires:	perl-Bit-Vector >= 6.3
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Math-BigInt >= 1.60
@@ -46,7 +46,7 @@ autorstwa Steffena Beiera.
 
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
