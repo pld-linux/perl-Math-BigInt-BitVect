@@ -8,12 +8,12 @@
 Summary:	Math::BigInt's replacement module using Bit::Vector
 Summary(pl):	Modu³ zastêpuj±cy rdzeñ Math::BigInt, u¿ywaj±cy Bit::Vector
 Name:		perl-Math-BigInt-BitVect
-Version:	1.11
+Version:	1.12
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d4f2123c53c4388e3d2c40f9a7433a44
+# Source0-md5:	1ed80eeb987b604c935951c5fb7b04ce
 Patch0:		%{name}-test.patch
 BuildRequires:	perl-Math-BigInt >= 1.60
 BuildRequires:	perl(Math::BigFloat) >= 1.35
@@ -38,7 +38,7 @@ autorstwa Steffena Beiera.
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 # sqrt(+inf) == inf, not NaN
-%patch -p1
+#%patch -p1
 
 %build
 %{__perl} Makefile.PL \
