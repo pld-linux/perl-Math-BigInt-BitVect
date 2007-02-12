@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	BigInt-BitVect
 Summary:	Math::BigInt's replacement module using Bit::Vector
-Summary(pl):	Modu³ zastêpuj±cy rdzeñ Math::BigInt, u¿ywaj±cy Bit::Vector
+Summary(pl.UTF-8):   ModuÅ‚ zastÄ™pujÄ…cy rdzeÅ„ Math::BigInt, uÅ¼ywajÄ…cy Bit::Vector
 Name:		perl-Math-BigInt-BitVect
 Version:	1.12
 Release:	2
@@ -31,9 +31,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Math::BigInt::BitVect provides support for big integer calculations
 via means of Bit::Vector, a fast C library by Steffen Beier.
 
-%description -l pl
-Math::BigInt::BitVect dostarcza obs³ugê obliczeñ na du¿ych liczbach
-ca³kowitych poprzez procedury Bit::Vector - szybkiej biblioteki w C
+%description -l pl.UTF-8
+Math::BigInt::BitVect dostarcza obsÅ‚ugÄ™ obliczeÅ„ na duÅ¼ych liczbach
+caÅ‚kowitych poprzez procedury Bit::Vector - szybkiej biblioteki w C
 autorstwa Steffena Beiera.
 
 %prep
