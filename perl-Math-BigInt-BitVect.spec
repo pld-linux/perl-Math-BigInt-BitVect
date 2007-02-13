@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	BigInt-BitVect
 Summary:	Math::BigInt's replacement module using Bit::Vector
-Summary(pl.UTF-8):   Moduł zastępujący rdzeń Math::BigInt, używający Bit::Vector
+Summary(pl.UTF-8):	Moduł zastępujący rdzeń Math::BigInt, używający Bit::Vector
 Name:		perl-Math-BigInt-BitVect
 Version:	1.12
 Release:	2
