@@ -13,9 +13,10 @@ Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://backpan.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1ed80eeb987b604c935951c5fb7b04ce
 Patch0:		%{name}-test.patch
+URL:		http://backpan.cpan.org/modules/by-module/Math/Math-BigInt-BitVect-1.12.readme
 BuildRequires:	perl-Math-BigInt >= 1.68
 BuildRequires:	perl(Math::BigFloat) >= 1.42
 BuildRequires:	perl-Bit-Vector >= 6.3
