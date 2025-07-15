@@ -39,7 +39,7 @@ autorstwa Steffena Beiera.
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 # sqrt(+inf) == inf, not NaN
-#%patch -p1
+#%%patch -p1
 
 %build
 %{__perl} Makefile.PL \
